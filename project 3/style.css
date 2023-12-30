@@ -1,0 +1,160 @@
+.section {
+    background-image: url(images/billboard.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.head {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0.8;
+    padding: 20px 10px;
+    /* width: 100%; */
+    height: 10vh;
+}
+
+.li {
+    padding: 0px 10px;
+}
+
+.a {
+    text-decoration: none;
+    color: black;
+}
+
+.lower {
+    background-color: white;
+    opacity: 0.8;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 500px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(19, 207, 185);
+}
+
+.button:hover {
+    background-color: cornflowerblue;
+    transition: 0.5;
+}
+
+.grid-sect {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px 20px;
+    margin: 5px 30px;
+}
+
+.grid-c {
+    border: 1px;
+    margin: 50px 0px;
+    text-align: center;
+    background-color: whitesmoke;
+
+}
+
+.img-seperator {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    padding: 0px;
+    align-self: center;
+}
+
+.grid-header {
+    text-align: center;
+}
+
+.grid-item {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-img {
+    width: 100%;
+    height: 400px;
+}
+
+.client-img {
+    border-radius: 50px;
+}
+
+.hello {
+    text-align: center;
+}
+
+.p {
+    text-align: center;
+}
+
+.client-logo {
+    background-color: rgb(79, 193, 87);
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px 20px;
+    opacity: 0.9;
+}
+
+.end-page {
+    background-color: rgb(32, 32, 32);
+    color: white;
+    text-align: center;
+
+}
+
+.border1 {
+    border: 1px solid;
+    margin: 0px 200px 0px 200px;
+    gap: 10px;
+    background-color: rgb(69, 66, 66);
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+}
+
+.button {
+    font-size: 10px;
+    margin: 8px;
+}
+
+.flex-section {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    margin: 50px;
+    justify-content: space-evenly;
+}
+
+.ll {
+    text-align: center;
+}
+
+.ul {
+    list-style-type: none;
+    text-align: start;
+}
+
+.last-container {
+    text-align: right;
+}
